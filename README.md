@@ -2,7 +2,7 @@
 
 > ​	最近公司项目（`Vue` + `Element` ）需求有用到 `tree` ，所以呢我去网上找了很多插件，都不是很符合我的要求。最后在GitHub上面找到了一款插件是 `iview` 的组织结构树  `vue-org-tree` ,但是由于文档不是特别易懂，自己踩了很多坑。不过定制性特别高，基本上会用到的方法都有了。所以今天来给大家讲解下。
 
-![image-20200326094911709](http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640.png)
+<img src="http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640.png" />
 
 ## 安装
 
@@ -113,8 +113,7 @@ data: {
 
 效果图：
 
-![image-20200325132135434](http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640 (1).png)
-
+<img src="http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640 (1).png" />
 ### 排列方式
 
 刚刚我们看到的是默认排列方式 ，其实还有一种排列方式，我们一起来看看
@@ -131,8 +130,8 @@ data: {
 ```
 
 看看效果如何：
-
-![1211](http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640 (2) - 副本.png)
+ 
+<img src="http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640 (2) - 副本.png" />
 
 ### 修改背景色
 
@@ -171,7 +170,7 @@ css：
 
 看看效果图
 
-![image-20200325145756860](http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640 (3).png)
+<img src="http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640 (3).png"/>
 
 ### 折叠展示
 
@@ -186,7 +185,7 @@ css：
 />
 ```
 
-![image-20200325162333053](http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640 (4).png)
+<img src="http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640 (4).png"/>
 
 折叠效果是有了，那么怎么展开呢？
 
@@ -226,7 +225,7 @@ onExpand(e,data) {
 
 请看效果图：
 
-![](http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640.gif)
+<img src="http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640.gif"/>
 
 问题又来了，默认展开如何实现？
 
@@ -261,7 +260,7 @@ this.toggleExpand(this.data,true)
 
 上效果图：
 
-![image-20200325172557428](http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640 (5).png)
+<img src="http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/640 (5).png">
 
 
 
@@ -407,7 +406,7 @@ css:
 
 上效果图：
 
-![GIF](http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/GIF.gif)
+<img src="http://crazy.lovemysoul.vip/gitdemo/vue2-org-tree/img/GIF.gif" />
 
 ## API
 
