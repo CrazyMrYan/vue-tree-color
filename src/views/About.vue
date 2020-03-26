@@ -144,7 +144,7 @@ export default {
     renderContent(h, data) {
       return data.label;
     },
-    onExpand(data) {
+    onExpand(e,data) {
       if ("expand" in data) {
         data.expand = !data.expand;
         if (!data.expand && data.children) {
