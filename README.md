@@ -591,4 +591,6 @@ well be called when the node-label clicked
 
 关注“悲伤日记”查看更多精彩文章
 
-![](http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/beishang.png)
+<img width="200" src="http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/beishang.png">
+
+有问题也可以私信我哟！
