@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="160" src="http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/TREE-LOGO.png">
+    <img width="200" src="http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/TREE-LOGO.png">
 </p>
 <p align="center">
  <img src="https://img.shields.io/github/stars/CrazyMrYan/vue-tree-color?style=social.svg" />
