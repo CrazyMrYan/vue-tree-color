@@ -2,7 +2,7 @@
     <img width="160" src="http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/TREE-LOGO.png">
 </p>
 <p align="center">
- <img src="https://img.shields.io/github/stars/CrazyMrYan/vue-color-color?style=social.svg" />
+ <img src="https://img.shields.io/github/stars/CrazyMrYan/vue-tree-color?style=social.svg" />
  <img src="https://img.shields.io/badge/%20downloads-530/week-brightgreen.svg" />
 </p>
 <h1 align="center"> vue-tree-color </h1>
