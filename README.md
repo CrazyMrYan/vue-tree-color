@@ -6,7 +6,7 @@
  <img src="https://img.shields.io/badge/%20downloads-530/week-brightgreen.svg" />
 </p>
 <h1 align="center"> vue-tree-color </h1>
-本项目是 针对 `vue-org-tree` 做得一个 `demo` 
+本项目是 针对 vue-org-tree 做得一个 demo ,并且根据公司项目进行修改 上传了 npm 包 下面我们开始讲解
 
 ## 前言
 
