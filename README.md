@@ -1,11 +1,4 @@
-<p align="center">
-    <img width="200" src="http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/TREE-LOGO.png">
-</p>
-<p align="center">
- <img src="https://img.shields.io/github/stars/CrazyMrYan/vue-tree-color?style=social.svg" />
- <img src="https://img.shields.io/badge/%20downloads-530/week-brightgreen.svg" />
-</p>
-<h1 align="center"> vue-tree-color </h1>
+# vue-tree-color
 
 ## 前言
 
@@ -46,7 +39,7 @@ Vue.use(Vue2OrgTree)
 
 ## 简单起步
 
-严老湿这边呢，就直接使用` Vue-cli `起步了，`vue-tree-color `安装成功之后，我们就直接使用了，在`Vue`页面或者组件中使用`vue2-org-tree` 标签，动态绑定data
+严老湿这边呢，就直接使用` Vue-cli `起步了，`vue-tree-color`安装成功之后，我们就直接使用了，在`Vue`页面或者组件中使用`vue2-org-tree` 标签，动态绑定data
 
 ### 基本创建
 
@@ -420,19 +413,45 @@ css:
 
 传`judge`值给组件
 
+**2.1.5：** judge 是一个`Object`格式 里面存在着一个值 `{swtich:true || false}`
+不传或者传入false 都默认为不需要自定义class
+新增`NodeClass` 参数 `NodeClass` 是一个`Array`格式 类似于`Echarts`的 `color` 参数，
+如果有放入你需要的`class` 如果没有则采取默认格式
+``` javascript
+  NodeClass:[
+      "myred",
+      "myger",
+      "myblue"
+  ]
+```
+在`data`数据中需要的项中添加 你就需要这样做
+``` javascript
+  {
+      id: 5,
+      label: "研发-前端",
+      swtich: "myred"
+  },
+  {
+      id: 6,
+      label: "研发-后端",
+      swtich: "myger"
+  },
+```
+
 html
 
 ``` html
 <vue2-org-tree 
 	:data="data" 
-    :horizontal="true"  
+  :horizontal="true"  
 	name="test"    
-    :label-class-name="labelClassName"
+  :label-class-name="labelClassName"
 	collapsable
 	@on-expand="onExpand"
 	@on-node-mouseover="onMouseover"
-    @on-node-mouseout="onMouseout"
-    :judge="judge"
+  @on-node-mouseout="onMouseout"
+  :judge="judge"
+  :NodeClass="NodeClass"
 />
 ```
 
@@ -590,7 +609,4 @@ well be called when the node-label clicked
 预览地址：http://crazy.lovemysoul.vip/gitdemo/vue-tree-color 
 
 关注“悲伤日记”查看更多精彩文章
-
-<img width="200" src="http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/beishang.png">
-
-有问题也可以私信我哟！
+![](https://user-gold-cdn.xitu.io/2020/3/26/17114de4a8c27045?w=414&h=415&f=png&s=77015)

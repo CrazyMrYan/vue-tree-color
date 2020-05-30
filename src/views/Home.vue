@@ -1,6 +1,6 @@
 <template>
     <div>
-        <vue2-org-tree :data="data" :horizontal="true" name="test" :judge="judge" :label-class-name="labelClassName" collapsable @on-expand="onExpand" @on-node-mouseover="onMouseover" @on-node-mouseout="onMouseout" />
+        <vue2-org-tree :data="data" :horizontal="true" name="test" :NodeClass="NodeClass" :judge="judge" :label-class-name="labelClassName" collapsable @on-expand="onExpand" @on-node-mouseover="onMouseover" @on-node-mouseout="onMouseout" />
         <div v-show="BasicSwich" class="floating">
             <p>ID:{{BasicInfo.id}}</p>
             <p>Name:{{BasicInfo.label}}</p>
@@ -14,7 +14,12 @@
             return {
                 BasicSwich: false,
                 BasicInfo: { id: null, label: null },
-                judge: { swtich: false },
+                judge: { swtich: true },
+                NodeClass:[
+                    "myred",
+                    "myger",
+                    "myblue"
+                ],
                 data: {
                     id: 0,
                     label: "XXX科技有限公司",
@@ -26,16 +31,17 @@
                                 {
                                     id: 5,
                                     label: "研发-前端",
-                                    swtich: false
+                                    swtich: "myred"
                                 },
                                 {
                                     id: 6,
                                     label: "研发-后端",
-                                    swtich: false
+                                    swtich: "myger"
                                 },
                                 {
                                     id: 9,
-                                    label: "UI设计"
+                                    label: "UI设计",
+                                    swtich: 111
                                 },
                                 {
                                     id: 10,
@@ -50,7 +56,7 @@
                                 {
                                     id: 7,
                                     label: "销售一部",
-                                    swtich: false
+                                    swtich: "myblue"
                                 },
                                 {
                                     id: 8,
@@ -89,8 +95,8 @@
                 this.BasicInfo = data;
                 this.BasicSwich = true;
                 var floating = document.getElementsByClassName("floating")[0];
-                floating.style.left = e.clientX + "px";
-                floating.style.top = e.clientY + "px";
+                floating.style.left = e.clientX+10 + "px";
+                floating.style.top = e.clientY+10 + "px";
             },
             onExpand(e, data) {
                 if ("expand" in data) {
@@ -138,6 +144,18 @@
     };
 </script>
 <style lang="less" >
+.myblue{
+    background: skyblue;
+    color: #fff;
+}
+.myred{
+    background-color: tomato;
+    color: #fff;
+}
+.myger{
+    background: green;
+    color: #fff;
+}
 .org-bg-err {
     background-color: tomato;
     color: #fff;
