@@ -1,5 +1,12 @@
-# vue-tree-color
-
+<p align="center">
+    <img width="200" src="http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/TREE-LOGO.png">
+</p>
+<p align="center">
+ <img src="https://img.shields.io/github/stars/CrazyMrYan/vue-tree-color?style=social.svg" />
+ <img src="https://img.shields.io/badge/%20downloads-530/week-brightgreen.svg" />
+</p>
+<h1 align="center"> vue-tree-color </h1>
+本项目是 针对 `vue-org-tree` 做得一个 `demo` 
 ## 前言
 
 > 最近公司项目（`Vue` + `Element` ）需求有用到 `tree` ，所以呢我去网上找了很多插件，都不是很符合我的要求。最后在GitHub上面找到了一款插件是 `iview` 的组织结构树  `vue-org-tree` ,但是由于文档不是特别易懂，自己踩了很多坑。不过定制性特别高，基本上会用到的方法都有了。所以今天来给大家讲解下。
@@ -415,7 +422,9 @@ css:
 
 **2.1.5：** judge 是一个`Object`格式 里面存在着一个值 `{swtich:true || false}`
 不传或者传入false 都默认为不需要自定义class
+
 新增`NodeClass` 参数 `NodeClass` 是一个`Array`格式 类似于`Echarts`的 `color` 参数，
+
 如果有放入你需要的`class` 如果没有则采取默认格式
 ``` javascript
   NodeClass:[
