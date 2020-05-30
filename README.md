@@ -24,8 +24,6 @@
 # use npm
 npm install vue-tree-color
 
-# use yarn
-yarn add vue2-org-tree
 ```
 
 ### 安装 loader 
