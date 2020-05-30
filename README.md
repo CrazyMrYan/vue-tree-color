@@ -7,6 +7,7 @@
 </p>
 <h1 align="center"> vue-tree-color </h1>
 本项目是 针对 `vue-org-tree` 做得一个 `demo` 
+
 ## 前言
 
 > 最近公司项目（`Vue` + `Element` ）需求有用到 `tree` ，所以呢我去网上找了很多插件，都不是很符合我的要求。最后在GitHub上面找到了一款插件是 `iview` 的组织结构树  `vue-org-tree` ,但是由于文档不是特别易懂，自己踩了很多坑。不过定制性特别高，基本上会用到的方法都有了。所以今天来给大家讲解下。
@@ -420,7 +421,9 @@ css:
 
 传`judge`值给组件
 
-**2.1.5：** judge 是一个`Object`格式 里面存在着一个值 `{swtich:true || false}`
+--------------------------------------------------------------------------------------------------
+**2.1.5：** 
+judge 是一个`Object`格式 里面存在着一个值 `{swtich:true || false}`
 不传或者传入false 都默认为不需要自定义class
 
 新增`NodeClass` 参数 `NodeClass` 是一个`Array`格式 类似于`Echarts`的 `color` 参数，
@@ -463,7 +466,12 @@ html
   :NodeClass="NodeClass"
 />
 ```
+![](http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/tree.png)
+更多详细文章 可以查阅 https://mp.weixin.qq.com/s/QLzXPxloTJh1fVAY77sZzg
 
+--------------------------------------------------------------------------------------------------
+
+**旧版本**
 js
 
 ``` javascript
@@ -479,6 +487,7 @@ id和6同时为判断条件，
 康康效果图吧
 
 ![](http://crazy.lovemysoul.vip/images/judge.jpg)
+
 
 如果你要修改更多的项，那就得换个判断条件了
 
