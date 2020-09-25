@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="200" src="http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/TREE-LOGO.png">
+    <img width="120" src="http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/TREE-LOGO.png">
     <h2 align="center"> vue-tree-color </h2>
 </p>
 <p align="center">
