@@ -1,0 +1,81 @@
+{
+  "__npminstall_done": "Sat May 30 2020 16:01:06 GMT+0800 (GMT+08:00)",
+  "_from": "vue-tree-color",
+  "_id": "vue-tree-color@2.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-diC/hbcoc1DOHJCs+BMBHwI/0kOI9Ikq6jfVt4MAR32bldkG6eAbY+w7QLFtfSroVSnHbIp9K4mfkm9u43IHCA==",
+  "_location": "/vue-tree-color",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-tree-color",
+    "name": "vue-tree-color",
+    "escapedName": "vue-tree-color",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-tree-color/-/vue-tree-color-2.2.1.tgz",
+  "_shasum": "32867c37fc555923194dd7328c028007c023e39f",
+  "_spec": "vue-tree-color",
+  "_where": "C:\\Users\\Administrator\\Desktop\\自己的小项目",
+  "author": {
+    "name": "CrazyYan",
+    "email": "2407488005@qq.com"
+  },
+  "browserslist": [
+    "> 5%",
+    "last 2 versions",
+    "not ie <= 8",
+    "Android >= 5.0",
+    "iOS > 8.0"
+  ],
+  "bugs": {
+    "url": "https://github.com/CrazyMrYan/vue-tree-color.git/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "deprecated": false,
+  "description": "A simple organization tree chart based on Vue2.x",
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.4",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^3.0.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "homepage": "http://crazy.lovemysoul.vip/gitdemo/vue-tree-color",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "src/main.js",
+  "name": "vue-tree-color",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrazyMrYan/vue-tree-color.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "trypublish": "npm run build && npm publish"
+  },
+  "version": "2.3.0"
+}
