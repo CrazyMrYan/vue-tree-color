@@ -5,9 +5,11 @@
 <p align="center">
  <img src="https://img.shields.io/github/stars/CrazyMrYan/vue-tree-color?style=social.svg" />
 </p>
+
+> 源码分支在 [sourceCode](https://github.com/CrazyMrYan/vue-tree-color/tree/sourceCode)
+
 本项目是 针对 vue-org-tree 做得一个 demo ,并且根据公司项目进行修改 上传了 npm 包 下面我们开始讲解
 
-> 源码分支在 `sourceCode`
 
 ## 浏览器兼容
 
