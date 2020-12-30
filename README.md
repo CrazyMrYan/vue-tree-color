@@ -637,3 +637,5 @@ well be called when the node-label clicked
 
 关注“悲伤日记”查看更多精彩文章
 ![](https://user-gold-cdn.xitu.io/2020/3/26/17114de4a8c27045?w=414&h=415&f=png&s=77015)
+
+鸣谢 ： https://github.com/hukaibaihu/vue-org-tree
