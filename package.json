@@ -1,7 +1,7 @@
 {
   "__npminstall_done": "Sat May 30 2020 16:01:06 GMT+0800 (GMT+08:00)",
   "_from": "vue-tree-color",
-  "_id": "vue-tree-color@2.2.1",
+  "_id": "vue-tree-color@2.3.3",
   "_inBundle": false,
   "_integrity": "sha512-diC/hbcoc1DOHJCs+BMBHwI/0kOI9Ikq6jfVt4MAR32bldkG6eAbY+w7QLFtfSroVSnHbIp9K4mfkm9u43IHCA==",
   "_location": "/vue-tree-color",
@@ -77,5 +77,5 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "trypublish": "npm run build && npm publish"
   },
-  "version": "2.3.0"
+  "version": "2.3.3"
 }

@@ -2,7 +2,6 @@
 const isLeaf = (data, prop) => {
   return !(Array.isArray(data[prop]) && data[prop].length > 0)
 }
-console.info('Thank you for using vue-tree-color \nIf you have any questions about this plug-in, please contact me in the following ways \nWeChat: yanjiahui12345 \nWeChat official number: Web_Miao')
 // 创建 node 节点
 export const renderNode = (h, data, context) => {
   const { props } = context
@@ -99,7 +98,7 @@ export const renderLabel = (h, data, context) => {
     }
   }, [h('div', {
     domProps: {
-      className:ChangeTheColor(data,judge,NodeClass) + " org-tree-node-label-inner"
+      className: ChangeTheColor(data,judge,NodeClass) + " org-tree-node-label-inner"
     },
     style: { width: labelWidth },
     on: {
@@ -113,12 +112,12 @@ export const renderLabel = (h, data, context) => {
 function ChangeTheColor(e,judge,NodeClass){
   if(judge !== "" && judge !== undefined && judge !== null && judge.swtich !== false){
     for(var k in judge) {
-      var a = (eval("e."+k))
+      var a = (eval("e." + k))
       if(NodeClass){
-        for(let c =0 ;c<NodeClass.length;c++){
+        for(let c =0 ;c<NodeClass.length; c++){
           if( a === NodeClass[c])
             return  NodeClass[c]
-          else if(NodeClass.length-1==c)
+          else if(NodeClass.length-1 == c)
             return ""
         }
       }else{

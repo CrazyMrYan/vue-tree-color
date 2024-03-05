@@ -29,7 +29,10 @@
         tree: {
           label: 'Owner',
           children: [{
-            label: 'Label 1'
+            label: [
+            'Label 1',
+            'Label 2'
+            ]
           },{
             label: 'Label 2'
           },{
@@ -42,7 +45,6 @@
           return "bg_node";
         },
         renderContent (h, data) {
-          console.log(h, data)
           return data.label;
         },
         onNodeClick (e, data) {
