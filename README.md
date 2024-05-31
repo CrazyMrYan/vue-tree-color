@@ -1,6 +1,5 @@
 <p align="center">
-    <img width="120" src="http://crazy-x-lovemysoul-x-vip.img.abc188.com/images/TREE-LOGO.png">
-    <h2 align="center"> vue-tree-color </h2>
+    <h1 align="center"> vue-tree-color </h1>
 </p>
 <p align="center">
  <img src="https://img.shields.io/github/stars/CrazyMrYan/vue-tree-color?style=social.svg" />
@@ -16,6 +15,11 @@
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="Edge" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Safari |
 | --------- | --------- | --------- | --------- |
 | Edge| last 2 versions| last 2 versions| last 2 versions
+
+
+## History Star
+
+![Star History Chart](https://api.star-history.com/svg?repos=CrazyMrYan/blog&type=Date)
 
 ## 前言
 
