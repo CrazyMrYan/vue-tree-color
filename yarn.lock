@@ -4765,9 +4765,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 minipass-collect@^1.0.2:
   version "1.0.2"
@@ -7366,10 +7366,10 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue2-org-tree@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/vue2-org-tree/-/vue2-org-tree-1.3.1.tgz#69ade05e0a2e133b8fa25f15bf2bd8e952eadc95"
-  integrity sha512-JPo0S2xg+6iCFuTNNExkHgpPp5DzjovUAGb0ttB17Djr9NADzfGcbNSZICx/PwPsIqRC9abE9UwtXGsqZhdxHQ==
+vue-tree-color@^2.1.9:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/vue-tree-color/-/vue-tree-color-2.3.2.tgz#e6327c4984d6de809746fb56e00586910343a28a"
+  integrity sha512-G0h5REuVsDvIOhDySA8Dpms1tZwLxz0sLYEim0UcnH7yrBe79gPB9VFwpz6emLfr0p48MKfJIiessmDsbB8zyQ==
   dependencies:
     vue "^2.6.11"
 
